@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/header_bg"
+
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_header_logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/f1_logo_black"
+        app:civ_border_color="@android:color/white"
+        android:layout_marginLeft="@dimen/nav_drawer_header_avatar_left_margin"
+        android:layout_marginTop="@dimen/nav_drawer_header_avatar_left_margin"
+        />
+    <TextView
+        android:id="@+id/tv_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F1 App"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/nav_drawer_header_avatar_left_margin"
+        android:layout_alignLeft="@+id/img_header_logo"
+        android:layout_alignStart="@+id/img_header_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by: @ieraielizondo"
+        android:id="@+id/tv_creator"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginRight="@dimen/nav_drawer_header_miniavatar_right_margin"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+
+</FrameLayout>
