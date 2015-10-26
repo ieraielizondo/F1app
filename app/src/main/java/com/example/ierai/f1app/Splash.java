@@ -18,7 +18,7 @@ public class Splash extends Activity {
             @Override
             public void run(){
                 try {
-                    sleep(3000);
+                    sleep(2500);
                     Intent iPrincipal = new Intent(getApplicationContext(),Principal_NavView.class);
                     startActivity(iPrincipal);
                     finish();
