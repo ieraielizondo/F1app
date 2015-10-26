@@ -8,7 +8,6 @@ import android.os.Bundle;
  * Created by Ierai on 07/10/2015.
  */
 public class Splash extends Activity {
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
